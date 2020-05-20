@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Practice1]" parallel="none">
+  <test name="Registration Test(failed)" parallel="none" preserve-order="true">
+    <classes>
+      <class name="qa.click.testcases.RegistrationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="registrationTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- qa.click.testcases.RegistrationTest -->
+    </classes>
+  </test> <!-- Registration Test(failed) -->
+</suite> <!-- Failed suite [Practice1] -->
